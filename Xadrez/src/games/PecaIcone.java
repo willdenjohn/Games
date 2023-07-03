@@ -3,19 +3,19 @@ import javax.swing.ImageIcon;
 
 public class PecaIcone {
     private ImageIcon icone;
-    private String cor;
+     private Peca peca;
 
-    public PecaIcone(ImageIcon icone, String cor) {
+    public PecaIcone(ImageIcon icone, Peca peca) {
         this.icone = icone;
-        this.cor = cor;
+        this.peca = peca;
     }
 
     public ImageIcon getIcone() {
         return icone;
     }
 
-    public String getCor() {
-        return cor;
+    public Peca getPeca() {
+        return peca;
     }
 }
 
